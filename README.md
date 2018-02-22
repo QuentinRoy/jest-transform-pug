@@ -2,7 +2,7 @@
 
 A [Jest](https://github.com/facebook/jest) transform that compiles your
 [.pug](https://github.com/pugjs/pug) files as template functions just like your
-pug loader (e.g [rollup-plugin-pug](https://github.com/aMarCruz/rollup-plugin-pug)
+pug loader would (e.g [rollup-plugin-pug](https://github.com/aMarCruz/rollup-plugin-pug)
 or [pug-loader](https://github.com/pugjs/pug-loader)).
 
 ## Usage
@@ -29,7 +29,6 @@ the following to your Jest configuration in your `package.json`:
 Warning, this would override default transforms automatically set up by jest.
 Hence, if you rely on e.g., babel transpilation in your tests, you will need
 to set up babel jest as well:
-
 
 ```json
 {
