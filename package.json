@@ -12,6 +12,7 @@
     "transform",
     "template"
   ],
+  "files": [],
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
