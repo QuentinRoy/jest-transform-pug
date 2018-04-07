@@ -19,10 +19,10 @@
     "pug": "*"
   },
   "devDependencies": {
-    "@commitlint/cli": "^6.1.0",
-    "@commitlint/config-conventional": "^6.1.0",
-    "husky": "^0.14.3",
-    "standard-version": "^4.3.0"
+    "@commitlint/cli": "6.1.0",
+    "@commitlint/config-conventional": "6.1.0",
+    "husky": "0.14.3",
+    "standard-version": "4.3.0"
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
