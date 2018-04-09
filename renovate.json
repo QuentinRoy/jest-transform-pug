@@ -11,7 +11,9 @@
   "packageRules": [
     {
       "packagePatterns": ["eslint"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "automerge": true,
+      "automergeType": "branch-push"
     }
   ]
 }
