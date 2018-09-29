@@ -21,7 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "7.1.1",
     "@commitlint/config-conventional": "7.1.1",
-    "husky": "0.14.3",
+    "husky": "1.0.1",
     "standard-version": "4.4.0"
   },
   "scripts": {
