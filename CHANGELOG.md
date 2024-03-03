@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/QuentinRoy/jest-transform-pug/compare/v0.1.0...v1.0.0) (2024-03-03)
+
+
+### Features
+
+* support for Jest 28 ([#43](https://github.com/QuentinRoy/jest-transform-pug/issues/43)) ([832a631](https://github.com/QuentinRoy/jest-transform-pug/commit/832a631))
+
+
+### BREAKING CHANGES
+
+* Jest <27 isn't supported anymore
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/QuentinRoy/jest-transform-pug/compare/v0.1.0-beta.0...v0.1.0) (2018-02-22)
 

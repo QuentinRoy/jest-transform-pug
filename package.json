@@ -1,7 +1,7 @@
 {
   "name": "jest-transform-pug",
   "description": "A Jest transform that compiles .pug files as templates",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/QuentinRoy/jest-transform-pug.git"
