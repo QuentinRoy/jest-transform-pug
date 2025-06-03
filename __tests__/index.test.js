@@ -1,11 +1,21 @@
 test("Simple case", () => {
-  const template = require("./simple-template.pug");
+  const template = require("./templates/template-simple.pug");
   expect(template()).toMatchSnapshot();
 });
 
 test("With arguments", () => {
-  const template = require("./template-with-args.pug");
+  const template = require("./templates/template-with-args.pug");
   expect(
     template({ url: "http://example.com", title: "Test Title" }),
   ).toMatchSnapshot();
+});
+
+test("With include", () => {
+  const template = require("./templates/template-with-include.pug");
+  expect(template()).toMatchSnapshot();
+});
+
+test("With extends", () => {
+  const template = require("./templates/template-with-extends.pug");
+  expect(template()).toMatchSnapshot();
 });

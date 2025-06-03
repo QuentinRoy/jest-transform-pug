@@ -1,0 +1,12 @@
+extends ./extends-layout.pug
+
+block scripts
+  script(src='/jquery.js')
+  script(src='/pets.js')
+
+block content
+  h1 Title
+  - let pets = ['cat', 'dog']
+  ul
+    each petName in pets
+      li= petName
