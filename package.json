@@ -26,7 +26,10 @@
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "husky",
+    "test": "echo 'No tests yet, coming soon! 🚧'",
+    "commitlint": "commitlint --edit"
   },
   "packageManager": "npm@11.4.1"
 }
