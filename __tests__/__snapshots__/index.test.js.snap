@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple case 1`] = `"<html></html><head><title>My Page</title></head><body><div id="my-div"><p>Hello, World!</p></div></body>"`;
+
+exports[`With arguments 1`] = `"<html></html><head><title>Test Title</title></head><body><a href="http://example.com">A link</a></body>"`;
