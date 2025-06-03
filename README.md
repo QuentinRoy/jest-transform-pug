@@ -1,8 +1,6 @@
 # jest-transform-pug
 
 [![NPM](https://img.shields.io/npm/v/jest-transform-pug.svg)](https://www.npmjs.com/package/jest-transform-pug)
-[![dependencies Status](https://david-dm.org/QuentinRoy/jest-transform-pug/status.svg)](https://david-dm.org/QuentinRoy/jest-transform-pug)
-[![devDependencies Status](https://david-dm.org/QuentinRoy/jest-transform-pug/dev-status.svg)](https://david-dm.org/QuentinRoy/jest-transform-pug?type=dev)
 
 A [Jest](https://github.com/facebook/jest) transform that compiles your
 [.pug](https://github.com/pugjs/pug) files as template functions just like your
