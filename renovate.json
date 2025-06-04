@@ -2,7 +2,7 @@
   "extends": [
     "config:js-lib",
     ":automergeMinor",
-    ":automergeBranchPush",
+    ":automergeBranch",
     ":semanticCommits",
     ":rebaseStalePrs",
     ":semanticCommitScopeDisabled",
@@ -10,8 +10,10 @@
   ],
   "packageRules": [
     {
-      "packagePatterns": ["eslint"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "/eslint/"
+      ]
     }
   ]
 }
