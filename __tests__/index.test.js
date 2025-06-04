@@ -8,6 +8,9 @@ test("With arguments", () => {
   expect(
     template({ url: "http://example.com", title: "Test Title" }),
   ).toMatchSnapshot();
+  expect(
+    template({ url: "http://something-else.com", title: "Other title" }),
+  ).toMatchSnapshot();
 });
 
 test("With include", () => {
