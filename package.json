@@ -35,5 +35,5 @@
       "\\.(pug)$": "./index.js"
     }
   },
-  "packageManager": "npm@11.4.2"
+  "packageManager": "npm@11.5.1"
 }
