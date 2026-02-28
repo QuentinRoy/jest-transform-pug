@@ -19,8 +19,8 @@
     "pug": "*"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
+    "@commitlint/cli": "20.4.2",
+    "@commitlint/config-conventional": "20.4.2",
     "husky": "9.1.7",
     "jest": "29.7.0"
   },
