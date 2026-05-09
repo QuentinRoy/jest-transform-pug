@@ -22,7 +22,7 @@
     "@commitlint/cli": "20.5.3",
     "@commitlint/config-conventional": "20.5.3",
     "husky": "9.1.7",
-    "jest": "30.3.0"
+    "jest": "30.4.2"
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
